@@ -1,0 +1,9 @@
+{% load_yaml as rawmap %}
+Debian:
+  repo:
+    url: http://rex.linux-files.org/{{ salt['grains.get']('os')|lower }}/
+    dist: {{ salt['grains.get']('oscodename') }}
+    keyurl: http://rex.linux-files.org/DPKG-GPG-KEY-REXIFY-REPO
+  pkgs:
+    - rex
+{% endload %}
