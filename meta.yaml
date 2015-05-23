@@ -1,0 +1,10 @@
+name: saltstack-rex-formula
+source: https://github.com/bechtoldt/saltstack-rex-formula
+summary: SaltStack Formula to set up and configure Rex, a deployment & configuration management software
+todo:
+  - add instructions how to use formhelper, add information about it in the formula-docs (dependency), show up alternative?
+  - 'table/ matrix: os/salt compatibility (dedicated file)'
+  - add list of available states
+  - add tests
+  - prepare SSH env?
+  - manage Rexfiles?
